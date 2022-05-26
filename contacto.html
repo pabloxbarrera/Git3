@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Lexend+Deca:wght@200;400&family=Roboto&family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/6d537da280.js" crossorigin="anonymous"></script>
+    <title> Guía Visita Esteros del Iberá</title>
+</head>
+
+<body>
+    <div class="contenedor">
+
+       <!--  ************************************************* HEADER ************************************************ -->
+
+        <header class="header"> 
+        </header>
+
+       <!--  ************************************************** NAV ************************************************* -->
+        
+        <nav class="nav">          
+            <ul>
+                <li><a href="index.html">Parque Nacional Iberá</a></li>
+                <li><a href="comollegar.html">¿Cómo llegar?</a></li>
+                <li><a href="hospedajes.html">Hospedajes</a></li>
+                <li><a href="actividades.html">Actividades</a></li>
+                <li><a href="fotos.html">Fotos</a></li>
+                <li><a href="mapas.html">Mapas</a></li>
+                <li><a href="quienessomos.html">Acerca del Autor</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+
+        <!--  ********************************************** ARTICULO ************************************************* -->
+
+        <main class="contenido">
+            <br>   
+            <form action="" method="POST" id="form">
+                <div class="form">
+                    <h2>Formulario de Contacto</h2>
+                    <br>
+                    <p>
+                        <label for="nombre" class="colocar_nombre">Nombre<span class="obligatorio"></span>
+                        </label>
+                        <input type="text" name="" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    </p>
+                    <p>
+                        <label for="email" class="colocar_email">Email<span class="obligatorio"></span>
+                        </label>
+                        <input type="email" name="" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                    </p>
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje<span class="obligatorio"></span>
+                        </label><textarea name="" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                    </p>   
+
+                    <button type="submit">Enviar</button>
+                    <p class="aviso" id="aviso"></p>
+                </div>             
+            </form>
+            <br><br> 
+                
+        </main>
+             
+        <!--  ************************************************* FOOTER ************************************************ -->
+          
+        <footer class="footer">
+            <p class=footerizq> <i class="fa-brands fa-creative-commons"></i> <i class="fa-brands fa-creative-commons-nc"></i> <i class="fa-brands fa-creative-commons-sa"></i> Atribución - No comercial - Compartir igual</p> 
+            <p class="footerder"><a href="contacto.html"><i class="fa-solid fa-envelope"></i> Contacto</a></p>
+        </footer>
+    </div>
+    <script src="js/validacion.js"></script>
+</body>
+
+</html>
